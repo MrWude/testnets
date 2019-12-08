@@ -4,7 +4,7 @@ This repo collects the genesis and configuration files for the various mdukey te
 
 # Getting Started
 
-To get started with the latest testnet, see the [docs](!https://github.com/mdukey/mdukey/blob/master/doc/join-the-testnet.md).
+To get started with the latest testnet, see the [docs](https://github.com/mdukey/mdukey/blob/master/doc/join-the-testnet.md).
 
 # Testnet Status
 
