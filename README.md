@@ -8,15 +8,14 @@ To get started with the latest testnet, see the [docs](https://github.com/mdukey
 
 # Testnet Status
 
-## December 9, 2019 14:00 CST -mdukey-13
+## December 9, 2019 14:00 CST - mdukey-13
 
-Download the genesis here: [genesis](./mdukey-13/genesis.json)
+Download the genesis here: [genesis](lastest/genesis.json)
 
 ```
 $ shasum -a 256 genesis.json
-d3d98e86ecdd3691bd88251e6c71acef6307cd3cbbe923f73609c6a5671c8c6f  -
+bd7c10ea2c3290bc9d60df62ff45ffc4684dbc6ff48c5c24c2b703fa910fffd6
 ```
-
 
 Seed nodes:
 
