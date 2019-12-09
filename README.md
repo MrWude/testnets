@@ -8,19 +8,17 @@ To get started with the latest testnet, see the [docs](https://github.com/mdukey
 
 # Testnet Status
 
-## December 9, 2019 14:00 CST - mdukey-13
+## December 9, 2019 14:00 CST - mdukey-1231
 
 Download the genesis here: [genesis](lastest/genesis.json)
 
 ```
 $ shasum -a 256 genesis.json
-bd7c10ea2c3290bc9d60df62ff45ffc4684dbc6ff48c5c24c2b703fa910fffd6
+8a1eef857be55ec0d5d77f62400d3f1456b455f2ef7deec6bfbbf17d4d21c1e6
 ```
 
 Seed nodes:
 
 ```
-35b9658ca14dd4908b37f327870cbd5007ee06f1@116.203.146.149:26656
-c24f496b951148697f8a24fd749786075c128f00@35.203.176.214:26656
-6be0856f6365559fdc2e9e97a07d609f754632b0@cosmos-gaia-13004-seed.nodes.polychainlabs.com:26656
+aa771882ab3d8946440b2854a1fa2cbec240acaa@192.168.9.59:26656
 ```

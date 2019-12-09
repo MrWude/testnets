@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2019-11-20T08:21:55.724093675Z",
-  "chain_id": "testing2",
+  "genesis_time": "2019-12-09T15:07:35.256734619Z",
+  "chain_id": "mdukey-1231",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -18,21 +18,6 @@
   },
   "app_hash": "",
   "app_state": {
-    "staking": {
-      "params": {
-        "unbonding_time": "1814400000000000",
-        "max_validators": 100,
-        "max_entries": 7,
-        "bond_denom": "umdu"
-      },
-      "last_total_power": "0",
-      "last_validator_powers": null,
-      "validators": null,
-      "delegations": null,
-      "unbonding_delegations": null,
-      "redelegations": null,
-      "exported": false
-    },
     "auth": {
       "params": {
         "max_memo_characters": "256",
@@ -45,15 +30,11 @@
         {
           "type": "cosmos-sdk/Account",
           "value": {
-            "address": "mdukey13xtu3xttspke0txv7rp8vrm4t56gtzfdx9l04c",
+            "address": "mdukey15k497gev42g5xk9yj0ge8eakz6haxqqufxa47w",
             "coins": [
               {
                 "denom": "umdu",
-                "amount": "190000000000000"
-              },
-              {
-                "denom": "validatortoken",
-                "amount": "1000000000"
+                "amount": "180000000000000"
               }
             ],
             "public_key": "",
@@ -62,9 +43,6 @@
           }
         }
       ]
-    },
-    "bank": {
-      "send_enabled": true
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -89,61 +67,31 @@
         "veto": "0.334000000000000000"
       }
     },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
     "crisis": {
       "constant_fee": {
         "denom": "umdu",
         "amount": "1000"
       }
     },
-    "genutil": {
-      "gentxs": [
-        {
-          "type": "cosmos-sdk/StdTx",
-          "value": {
-            "msg": [
-              {
-                "type": "cosmos-sdk/MsgCreateValidator",
-                "value": {
-                  "description": {
-                    "moniker": "testing2-node1",
-                    "identity": "",
-                    "website": "",
-                    "security_contact": "",
-                    "details": ""
-                  },
-                  "commission": {
-                    "rate": "0.100000000000000000",
-                    "max_rate": "0.200000000000000000",
-                    "max_change_rate": "0.010000000000000000"
-                  },
-                  "min_self_delegation": "1",
-                  "delegator_address": "mdukey13xtu3xttspke0txv7rp8vrm4t56gtzfdx9l04c",
-                  "validator_address": "mdukeyvaloper13xtu3xttspke0txv7rp8vrm4t56gtzfd0lvwsc",
-                  "pubkey": "mdukeyvalconspub1zcjduepqkkq9nvdrlpry0xmtecwzwafy2ttc985y6nxcyp35wt6cj2gpdgkq49dvqd",
-                  "value": {
-                    "denom": "umdu",
-                    "amount": "100000000"
-                  }
-                }
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas": "200000"
-            },
-            "signatures": [
-              {
-                "pub_key": {
-                  "type": "tendermint/PubKeySecp256k1",
-                  "value": "AgG5C4mrduF+Cjkv1XKzHXdq7AnYINTfp+/ivNHpifyS"
-                },
-                "signature": "C02mxunhfw3DkePxK4bbLT+PeGRFqDc69H1MN7fOn/9IGFcjyT5NVwCqNk1Vx9neYGpSL4HZ944stQRHUDu66Q=="
-              }
-            ],
-            "memo": "6609128aa63c806645c3889e2643d27c4705891d@172.19.79.49:26656"
-          }
-        }
-      ]
+    "supply": {
+      "supply": []
     },
     "slashing": {
       "params": {
@@ -171,29 +119,77 @@
         "blocks_per_year": "6311520"
       }
     },
-    "supply": {
-      "supply": []
-    },
-    "params": null,
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 28,
+        "max_entries": 7,
+        "bond_denom": "umdu"
       },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
     },
     "evidence": {
       "evidence": []
-    }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "mdukey-pool",
+                    "identity": "",
+                    "website": "https://mdukey.org",
+                    "security_contact": "",
+                    "details": "The first new privacy economics application based on BlackChain"
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "mdukey15k497gev42g5xk9yj0ge8eakz6haxqqufxa47w",
+                  "validator_address": "mdukeyvaloper15k497gev42g5xk9yj0ge8eakz6haxqququw5mw",
+                  "pubkey": "mdukeyvalconspub1zcjduepqq3nrsk3qqvz655yxv3xsreltu3peld0pp628z0jejxkpp45wp5jsgutvy9",
+                  "value": {
+                    "denom": "umdu",
+                    "amount": "100000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A+o002HD1Vg/orYaN0wc2jaZomaayEE3jyixvsjBrRV/"
+                },
+                "signature": "QBXBWlIC1YM1NE5OBOduIgfn5KVBkzgHooW8ioFUyfA5fH2wWA4zLMnp7XR6FDSPY74NAMvec1xEpbCqgno11w=="
+              }
+            ],
+            "memo": "40672066a97700b4b522d1c2f4a32440453d8ecf@192.168.9.60:26656"
+          }
+        }
+      ]
+    },
+    "params": null
   }
 }
