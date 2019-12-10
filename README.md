@@ -20,5 +20,5 @@ $ shasum -a 256 genesis.json
 Seed nodes:
 
 ```
-aa771882ab3d8946440b2854a1fa2cbec240acaa@192.168.9.59:26656
+aa771882ab3d8946440b2854a1fa2cbec240acaa@47.244.142.45:26656
 ```
